@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.SFApp.Targets" Version="1.0.0-preview.4.3" />
   </ItemGroup>

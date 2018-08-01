@@ -7,6 +7,10 @@ Project("{9B56FCB0-63B4-404F-8A09-42EF52B53347}") = "ToDoListApp", "ToDoListApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFrontEnd", "WebFrontEnd\WebFrontEnd.csproj", "{5694E7EB-8C25-4796-92FB-B3BB238033D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{8953F97D-8D20-4582-9E7A-2EB04FA62DFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoService", "ToDoService\ToDoService.csproj", "{E6487652-C953-4631-8DEA-4C41505FFD20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{5694E7EB-8C25-4796-92FB-B3BB238033D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5694E7EB-8C25-4796-92FB-B3BB238033D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5694E7EB-8C25-4796-92FB-B3BB238033D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8953F97D-8D20-4582-9E7A-2EB04FA62DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8953F97D-8D20-4582-9E7A-2EB04FA62DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8953F97D-8D20-4582-9E7A-2EB04FA62DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8953F97D-8D20-4582-9E7A-2EB04FA62DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6487652-C953-4631-8DEA-4C41505FFD20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6487652-C953-4631-8DEA-4C41505FFD20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6487652-C953-4631-8DEA-4C41505FFD20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6487652-C953-4631-8DEA-4C41505FFD20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

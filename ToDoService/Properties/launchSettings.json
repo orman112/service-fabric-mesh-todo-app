@@ -3,21 +3,24 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:50652",
+      "applicationUrl": "http://localhost:50898",
       "sslPort": 0
     }
   },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
+      "launchUrl": "api/values",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "WebFrontEnd": {
+    "ToDoService": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl": "api/values",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
@@ -25,8 +28,7 @@
     },
     "Service Fabric Local Cluster": {
       "commandName": "SFApp",
-      "launchBrowser": true,
-      "launchUrl": "http://{ServiceIpAddress}:{ServicePort}"
+      "launchUrl": "http://{ServiceIpAddress}:{ServicePort}/api/values"
     }
   }
 }
